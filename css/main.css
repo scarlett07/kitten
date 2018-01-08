@@ -2,18 +2,15 @@ body{
   margin: 0;
   padding: 0;
 }
-.conteiner{
-  margin: 0 auto;
-}
 
 .paisaje {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  height: 500px;
+  height: 800px;
   background-image: url('../assets/images/sunny-day.jpg');
   background-size: cover;
-  padding: 400px 40% 0 40%;
+  padding: 650px 40% 0 40%;
 }
 
 .kitty {
