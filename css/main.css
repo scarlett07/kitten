@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.paisaje {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100px;
+}
+
+.kitty {
+  margin: 0 auto;
+  max-width: 600px;
+  height: 200px;
+  background-image: url('../assets/images/kitten-medium.png');
+  background-size: cover;
+}
+.cat{
+  width: 50%;
+}
+
+img {
+  width: 100%;
+
+}
