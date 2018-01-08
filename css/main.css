@@ -2,24 +2,18 @@ body{
   margin: 0;
   padding: 0;
 }
+
 .paisaje {
   max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
-  height: 100px;
+  height: 500px;
+  background-image: url('../assets/images/sunny-day.jpg');
+  background-size: cover;
+  padding: 400px 40% 0 40%;
 }
 
 .kitty {
-  margin: 0 auto;
-  max-width: 600px;
-  height: 200px;
-  background-image: url('../assets/images/kitten-medium.png');
-  background-size: cover;
-}
-.cat{
-  width: 50%;
-}
-
-img {
+  text-align: center;
   width: 100%;
-
 }
