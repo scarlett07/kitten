@@ -17,3 +17,18 @@ body{
   text-align: center;
   width: 100%;
 }
+
+@media screen and (max-width: 306px) {
+  .paisaje {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    height: 150px;
+    background-image: url('../assets/images/night.jpg');
+    background-size: cover;
+    padding: 80px 40% 0 40%;
+  }
+  img{
+    content: url('../assets/images/kitten-small.png')
+  }
+}
