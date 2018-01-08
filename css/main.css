@@ -18,15 +18,30 @@ body{
   width: 100%;
 }
 
-@media screen and (max-width: 306px) {
+@media screen and (max-width: 350px) {
   .paisaje {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     height: 150px;
+    background-image: url('../assets/images/dawn.png');
+    background-size: cover;
+    padding: 80px 30% 0 30%;
+  }
+  img{
+    content: url('../assets/images/kitten-large.png')
+  }
+}
+
+@media (min-width: 350px) and (max-width: 800px) {
+  .paisaje {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    height: 450px;
     background-image: url('../assets/images/night.jpg');
     background-size: cover;
-    padding: 80px 40% 0 40%;
+    padding: 350px 40% 0 40%;
   }
   img{
     content: url('../assets/images/kitten-small.png')
